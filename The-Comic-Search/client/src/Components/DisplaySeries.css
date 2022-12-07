@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+}
+
+.profile-information {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  min-width: 30%;
+  background-color: lightgray;
+}
+
+.thumbnail-container {
+  height: 300px;
+  max-height: 300px;
+  min-height: 300px;
+}
+
+.thumbnail-image {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.series-information {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  max-width: 70%;
+  min-width: 70%;
+}
+
+.description {
+  padding: 5px;
+}
+
+.news {
+  padding: 5px;
+}
+
+.title-text {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.info-header {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: darkgray;
+  font-weight: bold;
+}
+
+.issues-container {
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.events-container {
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.previous-container {
+  padding-left: 5px;
+}
+
+.next-container {
+  padding-left: 5px;
+  margin-top: 5px;
+}
